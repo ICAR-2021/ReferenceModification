@@ -32,11 +32,22 @@ The path follower, follows a reference and the RL agent learns to modify the ref
 - IndividualTests.py: allows for each planner to be individually tested
 
 ## Installation
-- Installation
-  - clone the repo onto your computer
-  - navigate into the folder, ```cd ReferenceModification```
-  - install it using pip ```python3 -m pip install -e .```
-- Built on Linux Ubuntu system (20.04.2 LTS) using Python v3.8.5
+Tested on: Ubuntu 20.04.6, Python 3.8.10, pip 23.1.2.
+```
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install pyyaml==6.0
+python -m pip install -e .
+```
+
+## Usage
+```
+$ python TestingScripts/train.py 
+Traceback (most recent call last):
+  File "TestingScripts/train.py", line 6, in <module>
+    from toy_f110 import ForestSim
+ModuleNotFoundError: No module named 'toy_f110'
+```
 
 ## Citing
 If you have found our work helpful, please cite as:
