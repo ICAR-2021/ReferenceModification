@@ -53,10 +53,12 @@ TODO: test [https://github.com/BDEvan5/toy_f110](https://github.com/BDEvan5/toy_
 ## Citing
 If you have found our work helpful, please cite as:
 ```latex
-@article{evans2021autonomous,
-  title={Autonomous Obstacle Avoidance by Learning Policies for Reference Modification},
-  author={Evans, Benjamin and Jordaan, Hendrik W and Engelbrecht, Herman A},
-  journal={arXiv preprint arXiv:2102.11042},
-  year={2021}
+@INPROCEEDINGS{9659466,
+  author={Evans, Benjamin and Engelbrecht, Herman A. and Jordaan, Hendrik W.},
+  booktitle={2021 20th International Conference on Advanced Robotics (ICAR)}, 
+  title={Learning the Subsystem of Local Planning for Autonomous Racing}, 
+  year={2021},
+  pages={601-606},
+  doi={10.1109/ICAR53236.2021.9659466}
 }
 ```
